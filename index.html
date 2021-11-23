@@ -1,213 +1,202 @@
 <html>
-<link rel="stylesheet" type="text/css" href="CSS/StyleIndex.css">
-<title>main</title>
-	<body>
-	
-
-
-		<div class="Header">
-			<h1>Топ 3 най-досадни NPC-та в <br> The Elder Scrolls V: Skyrim </h1>
-
-		</div>
-
-
-		<br />
-		<br />
-
-			<img id="logo" src="Images/B.jpg" />
-		
-		
-		<br />
-		<br />
-
-		<div class="text1">
-			<p>	&emsp; Всички са чували за легендарната игра The Elder Scrolls V: Skyrim и след като ми беше дадено опасно много свободно време, Аз реших да се гмурна за пореден път в светът на Тамриел. Както сигурно знаете, играта е на почти 10 години и има 3 различни версии, но все още удържа на годините с невероятната си история, и огромната свобода, която предоставя на играча си. Ролевата игра е изпълнена с много различни персонажи, което ме вдъхнови да изразя мнението си за 3-те най-досадни персонажа в Скайрим. Не мога да наблегна достатъчно, че това е моето лично мнение и ако някой не е съгласен с мен е напълно нормално! Без да бавим повече нека да започнем! Моля изберете един от трите бутона за да разкриете личностите. 
-			</p>
-		</div>
-
-			<br />
-			<br />
-			<br />
-			<br />	
-			<br />	
-			<br />
-
-		<div class="FirstNPC">
-
-			<img id="FirstImg" src="Images/C.png" onload="changeImg()" >
-
-				<script>
-				function changeImg(){
-					if (sessionStorage.getItem("clicked1") == "true" ){
-						document.getElementById("FirstImg").src="Images/Hei.png";
-						}
-
-					else{
-						document.getElementById("FirstImg").src="Images/C.png";
-					}
-
-					}
-				</script>
-
-			<br />
-			<br />
-
-
-
-
-				<a href="NPC1.html" id="link1">
-
-					<button id="B1" onmouseover="mouseOver()" onmouseout="mouseOut()" onclick="save()">  3-то място</button>
-						<script>
-							function mouseOver() {
- 				 				document.getElementById("B1").style.backgroundColor = "black";
- 								document.getElementById("B1").style.color = "#6884ae";
- 				 				document.getElementById("B1").style.transition = "all 0.4s";
- 						 		}
-
-
- 							function mouseOut() {
- 				  				document.getElementById("B1").style.backgroundColor = "#6884ae";
- 				  				document.getElementById("B1").style.color = "white";
-								document.getElementById("B1").style.transition = "all 0.4s";
-				 				}
-
-				 			function save(){
-				 				sessionStorage.setItem("clicked1", "true" );
-				 				}
-						</script>
-				</a>
-
-		 </div>
-	 		<br />
-			<br />
-			<br />
-			<br />	
-			<br />	
-			<br />
-
-		 <div class="SecondNPC">
-
-			<img id="SecondImg" src="Images/C.png" onload="changeImg2()" >
-
-				<script>
-				function changeImg2(){
-					if (sessionStorage.getItem("clicked2") == "true" ){
-						document.getElementById("SecondImg").src="Images/Kay.png";
-						}
-
-					else{
-						document.getElementById("SecondImg").src="Images/C.png";
-					}
-
-					}
-				</script>
-
-			<br />
-			<br />
-
-
-
-
-				<a href="NPC2.html" id="link2">
-
-					<button id="B2" onmouseover="mouseOver2()" onmouseout="mouseOut2()" onclick="save2()">2-ро място</button>
-						<script>
-							function mouseOver2() {
- 				 				document.getElementById("B2").style.backgroundColor = "black";
- 								document.getElementById("B2").style.color = "#6884ae";
- 				 				document.getElementById("B2").style.transition = "all 0.4s";
- 						 		}
-
-
- 							function mouseOut2() {
- 				  				document.getElementById("B2").style.backgroundColor = "#6884ae";
- 				  				document.getElementById("B2").style.color = "white";
-								document.getElementById("B2").style.transition = "all 0.4s";
-				 				}
-
-				 			function save2(){
-				 				sessionStorage.setItem("clicked2", "true" );
-				 				}
-						</script>
-				</a>
-
-		 </div>
-
-		<br />
-			<br />
-			<br />
-			<br />	
-			<br />	
-			<br />
-
-		<div class="ThirdNPC">
-
-			<img id="ThirdImg" src="Images/C.png" onload="changeImg3()" >
-
-				<script>
-				function changeImg3(){
-					if (sessionStorage.getItem("clicked3") == "true" ){
-						document.getElementById("ThirdImg").src="Images/Naz.png";
-						}
-
-					else{
-						document.getElementById("ThirdImg").src="Images/C.png";
-					}
-
-					}
-				</script>
-
-			<br />
-			<br />
-
-
-
-
-				<a href="NPC3.html" id="link3">
-					<button id="B3" onmouseover="mouseOver3()" onmouseout="mouseOut3()" onclick="save3()"> 1-во място </button>
-				</a>
-
-		 </div>
-
-
-		 <div class="text2">
-			<p>	&emsp; Много благодаря за отделеното внимание, искрено се надявам да ви е харесвало!
-
-			</p>
-		 </div>
-
-
-
-
-
-
-
-		<br />
-		<br />
-		<footer>
-			<p>This is just a text at the bottom. Nothing to see here.... Yup... Why are you still reading me? It is kinda lonley down here. </p>
-			<br />
-
-
-		</footer>
-		<script>
-			function mouseOver3() {
-				document.getElementById("B3").style.backgroundColor = "black";
-				document.getElementById("B3").style.color = "#6884ae";
-				document.getElementById("B3").style.transition = "all 0.4s";
-				}
-
-
-			function mouseOut3() {
-				document.getElementById("B3").style.backgroundColor = "#6884ae";
-				document.getElementById("B3").style.color = "white";
-				document.getElementById("B3").style.transition = "all 0.4s";
-				}
-
-			function save3(){
-				sessionStorage.setItem("clicked3", "true" );
-				}
-		</script>
-	</body>
+  <link rel="stylesheet" type="text/css" href="CSS/StyleIndex.css" />
+  <title>main</title>
+  <body>
+    <div class="Header">
+      <h1>
+        Топ 3 най-досадни NPC-та в <br />
+        The Elder Scrolls V: Skyrim
+      </h1>
+    </div>
+    <br />
+    <br />
+    <img id="logo" src="Images/B.jpg" />
+    <br />
+    <br />
+    <div class="text1">
+      <p>
+        &emsp; Всички са чували за легендарната игра The Elder Scrolls V: Skyrim
+        и след като ми беше дадено опасно много свободно време, Аз реших да се
+        гмурна за пореден път в светът на Тамриел. Както сигурно знаете, играта
+        е на почти 10 години и има 3 различни версии, но все още удържа на
+        годините с невероятната си история, и огромната свобода, която
+        предоставя на играча си. Ролевата игра е изпълнена с много различни
+        персонажи, което ме вдъхнови да изразя мнението си за 3-те най-досадни
+        персонажа в Скайрим. Не мога да наблегна достатъчно, че това е моето
+        лично мнение и ако някой не е съгласен с мен е напълно нормално! Без да
+        бавим повече нека да започнем! Моля изберете един от трите бутона за да
+        разкриете личностите.
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="FirstNPC">
+      <img id="FirstImg" src="Images/C.png" onload="changeImg()" />
+
+      <script>
+        function changeImg() {
+          if (sessionStorage.getItem("clicked1") == "true") {
+            document.getElementById("FirstImg").src = "Images/Hei.png";
+          } else {
+            document.getElementById("FirstImg").src = "Images/C.png";
+          }
+        }
+      </script>
+
+      <br />
+      <br />
+
+      <a href="NPC1.html" id="link1">
+        <button
+          id="B1"
+          onmouseover="mouseOver()"
+          onmouseout="mouseOut()"
+          onclick="save()"
+        >
+          3-то място
+        </button>
+        <script>
+          function mouseOver() {
+            document.getElementById("B1").style.backgroundColor = "black";
+            document.getElementById("B1").style.color = "#6884ae";
+            document.getElementById("B1").style.transition = "all 0.4s";
+          }
+
+          function mouseOut() {
+            document.getElementById("B1").style.backgroundColor = "#6884ae";
+            document.getElementById("B1").style.color = "white";
+            document.getElementById("B1").style.transition = "all 0.4s";
+          }
+
+          function save() {
+            sessionStorage.setItem("clicked1", "true");
+          }
+        </script>
+      </a>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="SecondNPC">
+      <img id="SecondImg" src="Images/C.png" onload="changeImg2()" />
+
+      <script>
+        function changeImg2() {
+          if (sessionStorage.getItem("clicked2") == "true") {
+            document.getElementById("SecondImg").src = "Images/Kay.png";
+          } else {
+            document.getElementById("SecondImg").src = "Images/C.png";
+          }
+        }
+      </script>
+
+      <br />
+      <br />
+
+      <a href="NPC2.html" id="link2">
+        <button
+          id="B2"
+          onmouseover="mouseOver2()"
+          onmouseout="mouseOut2()"
+          onclick="save2()"
+        >
+          2-ро място
+        </button>
+        <script>
+          function mouseOver2() {
+            document.getElementById("B2").style.backgroundColor = "black";
+            document.getElementById("B2").style.color = "#6884ae";
+            document.getElementById("B2").style.transition = "all 0.4s";
+          }
+
+          function mouseOut2() {
+            document.getElementById("B2").style.backgroundColor = "#6884ae";
+            document.getElementById("B2").style.color = "white";
+            document.getElementById("B2").style.transition = "all 0.4s";
+          }
+
+          function save2() {
+            sessionStorage.setItem("clicked2", "true");
+          }
+        </script>
+      </a>
+    </div>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <div class="ThirdNPC">
+      <img id="ThirdImg" src="Images/C.png" onload="changeImg3()" />
+
+      <script>
+        function changeImg3() {
+          if (sessionStorage.getItem("clicked3") == "true") {
+            document.getElementById("ThirdImg").src = "Images/Naz.png";
+          } else {
+            document.getElementById("ThirdImg").src = "Images/C.png";
+          }
+        }
+      </script>
+
+      <br />
+      <br />
+
+      <a href="NPC3.html" id="link3">
+        <button
+          id="B3"
+          onmouseover="mouseOver3()"
+          onmouseout="mouseOut3()"
+          onclick="save3()"
+        >
+          1-во място
+        </button>
+      </a>
+    </div>
+
+    <div class="text2">
+      <p>
+        &emsp; Много благодаря за отделеното внимание, искрено се надявам да ви
+        е харесвало!
+      </p>
+    </div>
+
+    <br />
+    <br />
+    <footer>
+      <p>
+        This is just a text at the bottom. Nothing to see here.... Yup... Why
+        are you still reading me? It is kinda lonley down here.
+      </p>
+      <br />
+    </footer>
+    <script>
+      function mouseOver3() {
+        document.getElementById("B3").style.backgroundColor = "black";
+        document.getElementById("B3").style.color = "#6884ae";
+        document.getElementById("B3").style.transition = "all 0.4s";
+      }
+
+      function mouseOut3() {
+        document.getElementById("B3").style.backgroundColor = "#6884ae";
+        document.getElementById("B3").style.color = "white";
+        document.getElementById("B3").style.transition = "all 0.4s";
+      }
+
+      function save3() {
+        sessionStorage.setItem("clicked3", "true");
+      }
+    </script>
+  </body>
 </html>

@@ -1,71 +1,80 @@
 <html>
-<link rel="stylesheet" type="text/css" href="CSS/StyleNPC2.css">
-<title>NPC2</title>
-	<body>
-	
+  <link rel="stylesheet" type="text/css" href="CSS/StyleNPC2.css" />
+  <title>NPC2</title>
+  <body>
+    <div class="Header">
+      <h1>
+        Топ 3 най-досадни NPC-та в <br />
+        The Elder Scrolls V: Skyrim
+      </h1>
+    </div>
 
+    <br />
+    <h1 id="H2">№2</h1>
+    <br />
+    <br />
 
-		<div class="Header">
-			<h1>Топ 3 най-досадни NPC-та в <br> The Elder Scrolls V: Skyrim </h1>
+    <div class="text1">
+      <img id="Img1" src="Images/Dae.jpg" />
+      <p>
+        &emsp; Като погледнете снимката може би се чудите защо дете заема
+        второто място, нека ви обясни. Представете си, че току що сте попедели
+        Алдуин, връщате се от Совенгард пълен с магически артефакти, който така
+        или иначе не са достатъчно силни за вас и вашата
+        <strong>даедрик</strong> броня. Решавате, че ще ги продавате. Отивате до
+        най-близкият град, който се оказва Solitude, влизате в Bits & Pieces и
+        това "Хлапе" на име <strong>Кайл</strong> ви посреща с думите "Мислех,
+        че приключенците изглеждат корави".....
+      </p>
 
-		</div>
+      <img id="Img2" src="Images/Kay3.png" />
+      <p id="special">
+        &emsp;Болката е неописуема. За съжаление без модове или конзолни команди
+        няма да успеете да свалите и косъм от главата на Кайл. Колкото и
+        fireballa да може да кастнете отгоре му. Въпреки, че ако някак си
+        успеете да го убиете, ще намерите бутилка Mead в инвентарът му. Пълен
+        Хулиган ако питате мен. Или може би тово е референсе към South Park.
+      </p>
 
+      <p>
+        &emsp;С времето установих, че най-добрият build в Скайрим е Школата за
+        илюзия, защото след време научавете как да правите хора невидими.
+        Подомни умение са особено полезни за хора като Кайл.
+      </p>
+      <img id="Img3" src="Images/Kay2.png" />
+    </div>
 
-			<br />
-			<h1 id="H2">№2</h1> 
-			<br />
-			<br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="index.html" id="back">
+      <button id="B" onmouseover="mouseOver()" onmouseout="mouseOut()">
+        Назад
+      </button>
+      <script>
+        function mouseOver() {
+          document.getElementById("B").style.backgroundColor = "black";
+          document.getElementById("B").style.color = "#6884ae";
+          document.getElementById("B").style.transition = "all 0.4s";
+        }
 
-		<div class="text1">
+        function mouseOut() {
+          document.getElementById("B").style.backgroundColor = "#6884ae";
+          document.getElementById("B").style.color = "white";
+          document.getElementById("B").style.transition = "all 0.4s";
+        }
+      </script>
+    </a>
 
-			<img id="Img1" src="Images/Dae.jpg" >
-			<p>	&emsp; Като погледнете снимката може би се чудите защо дете заема второто място, нека ви обясни. Представете си, че току що сте попедели Алдуин, връщате се от Совенгард пълен с магически артефакти, който така или иначе не са достатъчно силни за вас и вашата  <strong>даедрик</strong> броня. Решавате, че ще ги продавате. Отивате до най-близкият град, който се оказва Solitude, влизате в Bits & Pieces и това "Хлапе" на име <strong>Кайл</strong> ви посреща с думите "Мислех, че приключенците изглеждат корави".....
-			</p>
-			
-			<img id="Img2" src="Images/Kay3.png" >
-			<p id="special"> &emsp;Болката е неописуема. За съжаление без модове или конзолни команди няма да успеете да свалите и косъм от главата на Кайл. Колкото и fireballa да може да кастнете отгоре му. Въпреки, че ако някак си успеете да го убиете, ще намерите бутилка Mead в инвентарът му. Пълен Хулиган ако питате мен. Или може би тово е референсе към South Park.
-			</p>
-			
-
-
-			<p>&emsp;С времето установих, че най-добрият build в Скайрим е Школата за илюзия, защото след време научавете как да правите хора невидими. Подомни умение са особено полезни за хора като Кайл.
-			</p>
-			<img id="Img3" src="Images/Kay2.png" >
-		</div>
-
-
-
-			<br />
-			<br />
-			<br />
-			<br />
-				<a href="index.html" id="back">
-
-					<button id="B" onmouseover="mouseOver()" onmouseout="mouseOut()" >  Назад</button>
-						<script>
-							function mouseOver() {
- 				 				document.getElementById("B").style.backgroundColor = "black";
- 								document.getElementById("B").style.color = "#6884ae";
- 				 				document.getElementById("B").style.transition = "all 0.4s";
- 						 		}
-
-
- 							function mouseOut() {
- 				  				document.getElementById("B").style.backgroundColor = "#6884ae";
- 				  				document.getElementById("B").style.color = "white";
-								document.getElementById("B").style.transition = "all 0.4s";
-				 				}
-						</script>
-				</a>
-
-	<br />
-		<br />
-		<footer>
-			<p>This is just a text at the bottom. Nothing to see here.... Yup... Why are you still reading me? It is kinda lonley down here. </p>
-			<br />
-
-
-		</footer>
-
-	</body>
+    <br />
+    <br />
+    <footer>
+      <p>
+        This is just a text at the bottom. Nothing to see here.... Yup... Why
+        are you still reading me? It is kinda lonley down here.
+      </p>
+      <br />
+    </footer>
+  </body>
 </html>
