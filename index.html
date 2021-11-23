@@ -165,26 +165,7 @@
 
 
 				<a href="NPC3.html" id="link3">
-
 					<button id="B3" onmouseover="mouseOver3()" onmouseout="mouseOut3()" onclick="save3()"> 1-во място </button>
-						<script>
-							function mouseOver3() {
- 				 				document.getElementById("B3").style.backgroundColor = "black";
- 								document.getElementById("B3").style.color = "#6884ae";
- 				 				document.getElementById("B3").style.transition = "all 0.4s";
- 						 		}
-
-
- 							function mouseOut3() {
- 				  				document.getElementById("B3").style.backgroundColor = "#6884ae";
- 				  				document.getElementById("B3").style.color = "white";
-								document.getElementById("B3").style.transition = "all 0.4s";
-				 				}
-
-				 			function save3(){
-				 				sessionStorage.setItem("clicked3", "true" );
-				 				}
-						</script>
 				</a>
 
 		 </div>
@@ -210,6 +191,23 @@
 
 
 		</footer>
+		<script>
+			function mouseOver3() {
+				document.getElementById("B3").style.backgroundColor = "black";
+				document.getElementById("B3").style.color = "#6884ae";
+				document.getElementById("B3").style.transition = "all 0.4s";
+				}
 
+
+			function mouseOut3() {
+				document.getElementById("B3").style.backgroundColor = "#6884ae";
+				document.getElementById("B3").style.color = "white";
+				document.getElementById("B3").style.transition = "all 0.4s";
+				}
+
+			function save3(){
+				sessionStorage.setItem("clicked3", "true" );
+				}
+		</script>
 	</body>
 </html>
