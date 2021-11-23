@@ -1,0 +1,176 @@
+::-webkit-scrollbar {
+	
+     width: 0px;
+ }
+
+ body
+ {
+ 	 height: 100%;
+	 margin: 0px;
+	 background: black;
+	 font-family: Arial;
+	 color:#6884ae;
+	 background-image: url("../Images/A.jpg");
+	 background-attachment: fixed;
+	 background-size:cover;
+ }
+
+
+
+.Header 
+{
+	font-family: Monospace;
+	 margin-top:1%;
+	 text-align: center;
+	 font-size:23px;
+	 color: white;
+	 margin-left:23%;
+	 margin-right:23%;
+	 border-style: solid;
+	 border-color: #6884ae;
+	 background-color:#6884ae ;
+	 border-radius:4px;
+	
+}
+
+
+#logo
+{
+
+	width:20%;
+	margin-left:40%;
+	margin-right:40%;
+
+
+
+}
+
+
+
+
+.text1 p
+{
+
+	 font-size: 23px;
+	 text-align: justify;
+	 margin-left:23% ;
+	 margin-right:23% ;
+	 word-spacing: 5px;
+	 padding-top: 5px;
+
+}
+
+
+#FirstImg
+{
+
+	width:16%;
+	margin-left:42%;
+	margin-right:42%;
+}
+
+
+
+
+
+
+#B1
+{
+	 background-color: #6884ae; 
+ 
+ 	 color: white;
+  	 text-align: center;
+  	 font-size: 25px;
+  	 border-radius:7px;
+  	 padding: 15px 4%;
+  	 margin-left:43%;
+  	 margin-right:52%;
+  	 display: inline-block;
+  	 position:static;
+  	 cursor: pointer;
+  	 border:1px solid #6884ae ;
+
+  }
+
+
+
+#B2
+{
+	 background-color: #6884ae; 
+ 	 color: white;
+  	 text-align: center;
+  	 font-size: 25px;
+  	 border-radius:7px;
+  	 padding: 15px 4%;
+  	 margin-left:43%;
+  	 margin-right:52%;
+  	 display: inline-block;
+  	 position:static;
+  	 cursor: pointer;
+  	 border:1px solid #6884ae 
+  }
+
+
+#SecondImg
+{
+	width:16%;
+	margin-left:42%;
+	margin-right:42%;
+}
+
+#B3
+{
+	 background-color: #6884ae; 
+ 	 color: white;
+  	 text-align: center;
+  	 font-size: 25px;
+  	 border-radius:7px;
+  	 padding: 15px 4%;
+  	 margin-left:43%;
+  	 margin-right:52%;
+  	 display: inline-block;
+  	 position:static;
+  	 cursor: pointer;
+  	 border:1px solid #6884ae 
+  }
+#ThirdImg
+{
+	width:16%;
+	margin-left:42%;
+	margin-right:42%;
+}
+
+
+.text2 p
+{
+	 font-size: 18px;
+	 text-align: center;
+	 margin-left:23% ;
+	 margin-right:23% ;
+	 word-spacing: 5px;
+	 padding-top: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+footer 
+ {
+	 display:block;
+	 clear: both;
+	 line-height:100%;
+	 margin-left:23%;
+	 margin-right:23%;
+	 border-style: solid none none none;
+	 border-width:1px;
+	 color: #a6a6a6;
+	 opacity:0.3;
+	 text-align: center;
+
+ }
