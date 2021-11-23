@@ -36,21 +36,10 @@
     <br />
     <div class="FirstNPC">
       <img id="FirstImg" src="Images/C.png" onload="changeImg()" />
-
-      <script>
-        function changeImg() {
-          if (sessionStorage.getItem("clicked1") == "true") {
-            document.getElementById("FirstImg").src = "Images/Hei.png";
-          } else {
-            document.getElementById("FirstImg").src = "Images/C.png";
-          }
-        }
-      </script>
-
       <br />
       <br />
-
       <a href="NPC1.html" id="link1">
+        <!-- Това е валидно решение, но евенти като onmouseover и onclick се хандълват в JS с AddEventListener() -->
         <button
           id="B1"
           onmouseover="mouseOver()"
@@ -59,23 +48,6 @@
         >
           3-то място
         </button>
-        <script>
-          function mouseOver() {
-            document.getElementById("B1").style.backgroundColor = "black";
-            document.getElementById("B1").style.color = "#6884ae";
-            document.getElementById("B1").style.transition = "all 0.4s";
-          }
-
-          function mouseOut() {
-            document.getElementById("B1").style.backgroundColor = "#6884ae";
-            document.getElementById("B1").style.color = "white";
-            document.getElementById("B1").style.transition = "all 0.4s";
-          }
-
-          function save() {
-            sessionStorage.setItem("clicked1", "true");
-          }
-        </script>
       </a>
     </div>
     <br />
@@ -84,23 +56,10 @@
     <br />
     <br />
     <br />
-
     <div class="SecondNPC">
       <img id="SecondImg" src="Images/C.png" onload="changeImg2()" />
-
-      <script>
-        function changeImg2() {
-          if (sessionStorage.getItem("clicked2") == "true") {
-            document.getElementById("SecondImg").src = "Images/Kay.png";
-          } else {
-            document.getElementById("SecondImg").src = "Images/C.png";
-          }
-        }
-      </script>
-
       <br />
       <br />
-
       <a href="NPC2.html" id="link2">
         <button
           id="B2"
@@ -110,23 +69,6 @@
         >
           2-ро място
         </button>
-        <script>
-          function mouseOver2() {
-            document.getElementById("B2").style.backgroundColor = "black";
-            document.getElementById("B2").style.color = "#6884ae";
-            document.getElementById("B2").style.transition = "all 0.4s";
-          }
-
-          function mouseOut2() {
-            document.getElementById("B2").style.backgroundColor = "#6884ae";
-            document.getElementById("B2").style.color = "white";
-            document.getElementById("B2").style.transition = "all 0.4s";
-          }
-
-          function save2() {
-            sessionStorage.setItem("clicked2", "true");
-          }
-        </script>
       </a>
     </div>
 
@@ -136,23 +78,10 @@
     <br />
     <br />
     <br />
-
     <div class="ThirdNPC">
       <img id="ThirdImg" src="Images/C.png" onload="changeImg3()" />
-
-      <script>
-        function changeImg3() {
-          if (sessionStorage.getItem("clicked3") == "true") {
-            document.getElementById("ThirdImg").src = "Images/Naz.png";
-          } else {
-            document.getElementById("ThirdImg").src = "Images/C.png";
-          }
-        }
-      </script>
-
       <br />
       <br />
-
       <a href="NPC3.html" id="link3">
         <button
           id="B3"
@@ -182,6 +111,8 @@
       <br />
     </footer>
     <script>
+      // Скрипт тага се слага най-отдолу на html файла тъй като той се рендира както всеки друг елемент
+      // Дефакто тези редове ще се изпълнят след като целия документ се е заредил :)))
       function mouseOver3() {
         document.getElementById("B3").style.backgroundColor = "black";
         document.getElementById("B3").style.color = "#6884ae";
@@ -196,6 +127,62 @@
 
       function save3() {
         sessionStorage.setItem("clicked3", "true");
+      }
+
+      function changeImg3() {
+        if (sessionStorage.getItem("clicked3") == "true") {
+          document.getElementById("ThirdImg").src = "Images/Naz.png";
+        } else {
+          document.getElementById("ThirdImg").src = "Images/C.png";
+        }
+      }
+
+      function mouseOver() {
+        document.getElementById("B1").style.backgroundColor = "black";
+        document.getElementById("B1").style.color = "#6884ae";
+        document.getElementById("B1").style.transition = "all 0.4s";
+      }
+
+      function mouseOut() {
+        document.getElementById("B1").style.backgroundColor = "#6884ae";
+        document.getElementById("B1").style.color = "white";
+        document.getElementById("B1").style.transition = "all 0.4s";
+      }
+
+      function save() {
+        sessionStorage.setItem("clicked1", "true");
+      }
+
+      function mouseOver2() {
+        document.getElementById("B2").style.backgroundColor = "black";
+        document.getElementById("B2").style.color = "#6884ae";
+        document.getElementById("B2").style.transition = "all 0.4s";
+      }
+
+      function mouseOut2() {
+        document.getElementById("B2").style.backgroundColor = "#6884ae";
+        document.getElementById("B2").style.color = "white";
+        document.getElementById("B2").style.transition = "all 0.4s";
+      }
+
+      function save2() {
+        sessionStorage.setItem("clicked2", "true");
+      }
+
+      function changeImg2() {
+        if (sessionStorage.getItem("clicked2") == "true") {
+          document.getElementById("SecondImg").src = "Images/Kay.png";
+        } else {
+          document.getElementById("SecondImg").src = "Images/C.png";
+        }
+      }
+
+      function changeImg() {
+        if (sessionStorage.getItem("clicked1") == "true") {
+          document.getElementById("FirstImg").src = "Images/Hei.png";
+        } else {
+          document.getElementById("FirstImg").src = "Images/C.png";
+        }
       }
     </script>
   </body>
